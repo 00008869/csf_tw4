@@ -13,3 +13,9 @@ def countup(n):
     else:
         print(n)
         countup(n+1)
+
+if n < 0:
+    countup(n)
+else:
+    countdown(n)
+
